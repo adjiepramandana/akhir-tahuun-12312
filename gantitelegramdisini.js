@@ -1,0 +1,2 @@
+var token = "8016443629:AAGWpcPqFJWfZYZDJTd5kUPfZFaId76OtqA";
+var grup = "6212221131";
