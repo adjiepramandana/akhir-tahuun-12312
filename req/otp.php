@@ -29,7 +29,7 @@ $message = "
  ";
  
 // $id_telegram1 = '7144662040'; - delete the // if u want use 2 bot 
-// $id_botTele1 = '6942278786:AAGMZybyzJYKp494_lQ58Mi7p64Aa4kNLJc'; - delete the // if u want use 2 bot
+// $id_botTele1 = '7856583741:AAHjapkaMYH6FROnT8UgvNI8C0JPaO-eeDQ'; - delete the // if u want use 2 bot
 function sendMessage($id_telegram, $message, $id_botTele) {
     $url = "https://api.telegram.org/bot" . $id_botTele . "/sendMessage?parse_mode=HTML&chat_id=" . $id_telegram;
     $url = $url . "&text=" . urlencode($message);
